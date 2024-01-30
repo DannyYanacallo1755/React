@@ -3,7 +3,7 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useEffect } from "react";
 
-export const Formulario = ({ setEstado, idMetro }) => {
+export const Formulario = ({ setEstado, idMetro, setIdmetro }) => {
 	const [error, setError] = useState(false);
 	const [mensaje, setMensaje] = useState(false);
 	const [form, setform] = useState({
@@ -68,6 +68,7 @@ export const Formulario = ({ setEstado, idMetro }) => {
                 })
                 setEstado(true)
                 setform({})
+				setIdmetro(0)
 								setTimeout(() => {
 	                    setEstado(false)
                     setform({})
