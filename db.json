@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "metro": [
+    {
+      "nombre": "Quitumbe",
+      "sector": "Sur-Norte",
+      "salida": "Quitumbe",
+      "llegada": "Carolina",
+      "maquinista": "Danny",
+      "detalles": "Nueva-ruta-produccion",
+      "id": "ca1e1008-25a2-4e3d-99f3-34bd605754d7"
+    },
+    {
+      "nombre": "Quito",
+      "sector": "Sur",
+      "salida": "aaaaaaa",
+      "llegada": "aaaaaa",
+      "maquinista": "aaaaaaaa",
+      "detalles": "aaaaaaaaa",
+      "id": "eea2323d-5115-40fc-96aa-4d8820ce20d6"
+    },
+    {
+      "nombre": "Ruta33",
+      "sector": "adada",
+      "salida": "dadad",
+      "llegada": "adad",
+      "maquinista": "adad",
+      "detalles": "dad",
+      "id": "716a8b63-a06f-46c4-b3c6-2564d14999b7"
+    }
+  ]
+}
